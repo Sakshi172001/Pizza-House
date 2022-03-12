@@ -108,7 +108,7 @@ a:hover {
     margin-top: 5%;
     margin-right: 5%;
     width: 350px;
-    height: 650px;
+    height: 670px;
     opacity: 0.8;
     float: right;
     border: 4px solid #ccc;
@@ -197,54 +197,35 @@ option {
     background: #331a00;
     opacity: 0.9;
     width: 900px;
-    height: 520px;
+    height: max-content;
+    padding-bottom: 20px;
 }
 
-#f_deal,
-#s_deal {
+#deal {
     float: left;
     margin-left: 3%;
     margin-top: 3%;
     width: 400px;
-    height: 250px;
+    height: 400px;
     position: relative;
     cursor: pointer;
     border: 5px solid white;
 }
 
-#f_pic {
-    background-image: url("Images/Family Deal.jpg");
-}
-
-#s_pic {
-    background-image: url("Images/Family Deal 2.jpg");
-}
-
-#f_pic,
-#s_pic {
-    display: block;
-    width: inherit;
+#deal:hover #over {
     height: inherit;
 }
 
-#f_deal:hover #over,
-#s_deal:hover #over2 {
-    height: inherit;
-}
-
-#over,
-#over2 {
-    width: inherit;
-    height: 00px;
+#over {
+    width: 400px;
+    height: 400px;
     position: absolute;
-    top: 0;
     background: #ff980094;
     opacity: 0.9;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: 0.8s ease;
 }
 
 #of {
