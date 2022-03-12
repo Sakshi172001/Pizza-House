@@ -206,10 +206,18 @@ option {
     margin-left: 3%;
     margin-top: 3%;
     width: 400px;
-    height: 300px;
+    height: 250px;
     position: relative;
     cursor: pointer;
     border: 5px solid white;
+}
+
+#f_pic {
+    background-image: url("Images/Family Deal.jpg");
+}
+
+#s_pic {
+    background-image: url("Images/Family Deal 2.jpg");
 }
 
 #f_pic,
