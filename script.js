@@ -8,7 +8,7 @@ function resetDetails() {
 }
 
 var login = document.getElementById("lbtn");
-login.addEventListener("click", loginDetails);
+reset.addEventListener("click", loginDetails);
 
 function loginDetails() {
     var em = document.getElementById("em").value = '';
